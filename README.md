@@ -49,3 +49,6 @@ This website will advertise a fictional tearooms that offers a luxurious Afterno
 -  Imagery of the tearooms will also entice the user to come and avail of the service.
     
     
+ # Wireframes
+    
+   Wireframes for Desktop, Tablet and Mobile can be found [here.](https://github.com/sarahob96/sadies_tearooms/blob/main/Sadies_tearooms%20.pdf)
