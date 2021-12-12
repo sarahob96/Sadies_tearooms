@@ -19,3 +19,33 @@ h1{
     
 }
 
+
+#navbar{
+    text-align: center;
+    font-size: 130%;
+    justify-content: space-between;
+    display: flex;
+    padding: 40px;
+        
+}
+
+#navbar li{
+    list-style: none;
+    display: inline;
+    font-family: Gilda Display, serif;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #9BA17B;   
+}
+
+#navbar a:hover{
+    background-color: #DCDCC6;
+    border-bottom: 1px solid;
+}
+
+.current{ 
+    border-bottom: 1px solid;
+}
