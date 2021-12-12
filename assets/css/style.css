@@ -1,3 +1,8 @@
-body{
-    color:pink;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Gilda+Display&display=swap');
+
+h1{
+    font-family: Gilda Display, serif;
+    font-weight: 600px;
+    color: #9BA17B;
 }
+
