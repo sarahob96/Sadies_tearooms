@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Gilda+Display&display=swap');
 
+
+body{
+    font-family: Dosis, serif;
+    color: black;
+    background-color: #F4F4E8;
+
+}
+
+
 h1{
     font-family: Gilda Display, serif;
-    font-weight: 600px;
+    font-weight: 400px;
     color: #9BA17B;
+    letter-spacing: 7px;
+    font-size: 250%;
+    text-align: center;
+    
 }
 
