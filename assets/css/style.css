@@ -17,6 +17,7 @@ h1{
     font-size: 250%;
     text-align: center;
     
+    
 }
 
 
@@ -48,4 +49,16 @@ a{
 
 .current{ 
     border-bottom: 1px solid;
+}
+
+#main-image{
+   background: url('../images/tearooms_2.jpeg') no-repeat center;
+   height: 700px;
+   width: 100%;
+   background-size: cover;
+
+}
+*{
+    margin: 0;
+    padding:0;
 }
