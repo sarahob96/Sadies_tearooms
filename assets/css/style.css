@@ -113,11 +113,13 @@ a{
 }
 
 .carousel{
-    width: 100%;
+    width: 70%;
     height: 200px;
     display: flex;
     overflow-x: auto;
     background-color: #DCDCC6;
+    margin: auto;
+    text-align: center;
 }
 
 .box{
