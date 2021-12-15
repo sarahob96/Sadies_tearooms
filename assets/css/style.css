@@ -106,7 +106,7 @@ a{
   
 .circle-text{
     text-align:center;
-    font-family: Gilda-Display;
+    font-family: Gilda-Display, serif;
     padding: 50px;
     font-size: 120%;
     color: #6F754D;
@@ -122,6 +122,12 @@ a{
     margin: auto;
     text-align: center;
     margin-top: 150px;
+
+}
+
+.carousel > div{
+font-family: Gilda Display, serif;
+
 }
 
 .box{
