@@ -184,6 +184,7 @@ footer{
     width: 300px;
     background-size: cover;
     float: right;
+    margin: 40px 200px 20px 20px;
 }
 
 #tearooms2{
@@ -192,4 +193,5 @@ footer{
     width: 300px;
     background-size: cover;
     float: right;
+    margin: 20px;
 }
