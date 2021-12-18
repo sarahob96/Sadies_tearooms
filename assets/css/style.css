@@ -180,14 +180,16 @@ footer{
 
 #tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-size: cover;
+    float: right;
 }
 
 #tearooms2{
     background: url('../images/afternoontea_birthday.jpeg') no-repeat center;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-size: cover;
+    float: right;
 }
