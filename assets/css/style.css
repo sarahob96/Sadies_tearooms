@@ -182,10 +182,12 @@ footer{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
     height: 200px;
     width: 200px;
+    background-size: cover;
 }
 
 #tearooms2{
-    background: url('../images/tearooms_2.jpeg') no-repeat center;
+    background: url('../images/afternoontea_birthday.jpeg') no-repeat center;
     height: 200px;
     width: 200px;
+    background-size: cover;
 }
