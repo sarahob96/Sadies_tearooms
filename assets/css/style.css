@@ -169,5 +169,11 @@ footer{
 #about{
     float:left;
     padding: 20px;
+    
+
+}
+#about > h3{
+    padding: 20px;
+    font-family: Gilda-Display, serif ;
 
 }
