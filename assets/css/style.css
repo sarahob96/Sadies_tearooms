@@ -177,3 +177,15 @@ footer{
     font-family: Gilda-Display, serif ;
 
 }
+
+#tearooms1{
+    background: url('../images/tearooms_1.jpeg') no-repeat center;
+    height: 200px;
+    width: 200px;
+}
+
+#tearooms2{
+    background: url('../images/tearooms_2.jpeg') no-repeat center;
+    height: 200px;
+    width: 200px;
+}
