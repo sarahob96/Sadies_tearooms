@@ -159,7 +159,7 @@ hr{
 
 footer{
     height: 100px;
-    
+   
 }
 
 .social-links{
@@ -169,13 +169,16 @@ footer{
 #about{
     float:left;
     margin-top: 130px;
+    margin-left: 30px;
     padding: 20px;
+    
     
 
 }
 #about > h3{
     padding: 20px;
     font-family: Gilda-Display, serif ;
+    color: #6F754D;
 
 }
 
