@@ -228,6 +228,9 @@ footer{
     background-color: #FFFEF6;
 }
 #special-requests{
-    width: 50%;
-    height:50px;
+    width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+    resize: none;
+
 }
