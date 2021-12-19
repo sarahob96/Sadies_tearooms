@@ -19,6 +19,7 @@ h1{
     padding: 20px;
     
     
+    
 }
 
 
@@ -28,7 +29,7 @@ h1{
     justify-content: space-between;
     display: flex;
     padding: 40px;
-        
+    
 }
 
 #navbar li{
@@ -183,14 +184,14 @@ footer{
 }
 #about > h3{
     padding: 20px;
-    font-family: Gilda-Display, serif ;
+    font-family: Gilda Display, serif ;
     color: #6F754D;
 
 }
 
 #about-header{
    letter-spacing: 4px;
-   font-family: Gilda-Display, serif;
+   font-family: Gilda Display, serif;
    margin-bottom: 30px;
  
    
