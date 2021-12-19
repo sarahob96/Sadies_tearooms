@@ -262,3 +262,12 @@ footer{
     transform: translate (-30%,-30%);
     padding: 1em;
 }
+
+.modal-x{
+    color:black;
+    font-size: 1.3em;
+    position: absolute;
+    top: 0.9em;
+    right: 2em;
+
+}
