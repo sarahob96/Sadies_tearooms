@@ -250,6 +250,8 @@ footer{
     top:0;
     left:0;
     z-index: 8;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .menu-content{
@@ -270,4 +272,9 @@ footer{
     top: 0.9em;
     right: 2em;
 
+}
+
+.menu-heading{
+    color:#6F754D;
+     
 }
