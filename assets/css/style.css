@@ -220,8 +220,11 @@ footer{
     margin-bottom: 100px;
 }
 
+
 #order-online{
-    width: 60%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: #FFFEF6;
 }
 #special-requests{
