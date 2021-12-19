@@ -242,7 +242,11 @@ footer{
     margin: 2px;
 }
 
-.modal{
+.menu-modal{
+    display: inline-block;
+
+}
+.modal-link{
     background-color: rgba(0,0,0, 0.5);
     width:100%;
     height: 100vh;
@@ -265,7 +269,15 @@ footer{
     padding: 1em;
     visibility: hidden;
 }
+.modal-link:target{
+    visibility: visible;
+    opacity:1;
+}
 
+#modal-link .menu-content{
+    visibility: visible;
+    opacity: 1;
+}
 .modal-x{
     color:black;
     font-size: 1.3em;
