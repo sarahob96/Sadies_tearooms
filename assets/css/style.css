@@ -220,6 +220,9 @@ footer{
     margin-bottom: 100px;
 }
 
+#order-online{
+    width: 60%;
+}
 #special-requests{
     width: 50%;
     height:50px;
