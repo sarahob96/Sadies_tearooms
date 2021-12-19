@@ -250,13 +250,15 @@ footer{
     top:0;
     left:0;
     z-index: 8;
-
 }
 
 .menu-content{
     width: 60%;
     height: 60%;
     background-color: white;
-    
-
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate (-30%,-30%);
+    padding: 1em;
 }
