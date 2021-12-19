@@ -236,3 +236,7 @@ footer{
     resize: none;
 
 }
+
+#order-button{
+    padding: 10px;
+}
