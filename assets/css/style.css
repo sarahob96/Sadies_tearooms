@@ -329,7 +329,7 @@ footer{
 
 
 .float-left{
-    width:50%;
+    width:100%;
     text-align: center;
     padding: 20px;  
     height: 300px;
@@ -352,6 +352,8 @@ footer{
 #contact-message{
     height: 300px;
     width: 50%;
+    margin: 0 auto;
+    
     
 }
 
