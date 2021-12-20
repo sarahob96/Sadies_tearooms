@@ -298,3 +298,9 @@ footer{
     color:#6F754D;
      
 }
+.menu-content > p{
+    padding: 4px;
+}
+.menu-content > h2, h3 {
+    padding: 8px;
+}
