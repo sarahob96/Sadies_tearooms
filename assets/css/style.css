@@ -237,15 +237,18 @@ footer{
 
 }
 
+.menu{
+    text-align: center;
+
+}
+
+
+
 #order-button{
     padding: 10px;
     margin: 2px;
 }
 
-.menu-modal{
-    display: inline-block;
-
-}
 .modal-link{
     background-color: rgba(0,0,0, 0.5);
     width:100%;
