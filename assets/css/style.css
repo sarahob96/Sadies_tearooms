@@ -107,7 +107,7 @@ a{
     border: 1px solid #9BA17B;
     float:left;
     text-align: center;
-    margin: 60px;
+    margin:60px;
     
     
     
@@ -115,10 +115,11 @@ a{
     
   
 .circle-text{
-    margin: 0 auto;
+    text-align: center;
+    margin: 10%;
     font-family: Gilda-Display, serif;
     padding: 30px;
-    font-size: 120%;
+    font-size: 130%;
     color: #6F754D;
     
 }
