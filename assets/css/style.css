@@ -360,7 +360,9 @@ footer{
 fieldset{
     border:none;
 }
-
+#contact{
+    font-size: 20px;
+}
 .contact-form{
     padding: 10px;
 
