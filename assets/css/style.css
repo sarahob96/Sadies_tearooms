@@ -266,13 +266,13 @@ footer{
 }
 
 .menu-content{
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     background-color: white;
     position: absolute;
     top: 30%;
     left: 30%;
-    transform: translate (-30%,-30%);
+    transform: translate (-20%,-20%);
     padding: 1em;
     visibility: hidden;
 }
