@@ -332,6 +332,7 @@ footer{
     width:50%;
     text-align: center;
     padding: 20px;  
+    height: 300px;
   
 }
 
@@ -346,4 +347,9 @@ footer{
     font-family: Gilda Display, serif;
     padding: 10px;
 
+}
+
+#contact-message{
+    height: 300px;
+    width: 50%;
 }
