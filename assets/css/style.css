@@ -173,7 +173,9 @@ footer{
 }
 
 
-
+#video{
+    text-align:center;
+}
 #about{
     float:left;
     margin-top: 40px;
