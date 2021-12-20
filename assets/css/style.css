@@ -353,8 +353,13 @@ footer{
     height: 300px;
     width: 50%;
     margin: 0 auto;
-    
-    
+    background-color:#DCDCC6;
+    text-align: center; 
+
+}
+
+fieldset{
+    border:none;
 }
 
 .contact-form{
