@@ -301,6 +301,6 @@ footer{
 .menu-content > p{
     padding: 4px;
 }
-.menu-content > h2, h3 {
-    padding: 8px;
+.menu-content > h3,h4 {
+    padding: 12px;
 }
