@@ -196,7 +196,7 @@ footer{
     margin-left: 30px;
     padding: 20px;
     width: 50%;
-    height: 100vh;
+    
     
     
 
@@ -223,8 +223,8 @@ footer{
 
 #tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
-    height: 300px;
-    width: 320px;
+    height: 250px;
+    width: 300px;
     background-size: cover;
     float: right;
     margin: 40px 200px 20px 20px;
@@ -233,8 +233,8 @@ footer{
 
 #tearooms2{
     background: url('../images/afternoontea_birthday.jpeg') no-repeat center;
-    height: 300px;
-    width: 320px;
+    height: 270px;
+    width: 300px;
     background-size: cover;
     float: right;
     margin-right: 40px;
