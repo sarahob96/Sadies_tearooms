@@ -46,6 +46,19 @@
     <form>
         <fieldset>
             <legend> Send us a quick message below! </legend>
+            <div class="contact-form">
+                <label for="customer-name" class="contact-label"> Name: </label>
+                <input type="text" id="customer-name" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="contact-form">
+                <label for="customer-email" class="contact-label"> Email:</label>
+                <input type="email" id="customer-email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="contact-form">
+                <label for="customer-message" class="contact-label" > Your message: </label>
+                <input type="text" id="customer-message" name="message" placeholder="Enter your query here" length="500" required>
+            </div>
         </fieldset>
     </form>
 </main>
