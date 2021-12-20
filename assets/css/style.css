@@ -249,6 +249,7 @@ footer{
     margin-left: 25%;
     margin-right: 25%;
     background-color: #FFFEF6;
+    border-radius: 6px;
 }
 #special-requests{
     width: 100%;
