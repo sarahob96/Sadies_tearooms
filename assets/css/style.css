@@ -175,7 +175,16 @@ footer{
 
 #video{
     text-align:center;
+    padding: 30px;
 }
+
+#video > h2{
+    font-family: Gilda Display, serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+
+}
+
 #about{
     float:left;
     margin-top: 40px;
