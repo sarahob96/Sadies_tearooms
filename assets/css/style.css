@@ -327,10 +327,6 @@ footer{
     padding: 10px;
 }
 
-.contact-us{
-
-
-}
 
 .float-left{
     width:50%;
@@ -339,4 +335,12 @@ footer{
     
 }
 
-.contact-heading
+#contact-heading{
+    font-family: Gilda Display, serif;
+
+}
+
+.contact-us{
+    font-family: Gilda Display, serif;
+
+}
