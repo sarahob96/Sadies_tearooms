@@ -247,6 +247,12 @@ footer{
     margin: 2px;
 }
 
+#order-header > h2{
+    text-align: center;
+    color: #6F754D;
+    font-family: Gilda Display, serif;
+    letter-spacing: 2px;
+}
 .modal-link{
     background-color: rgba(0,0,0, 0.5);
     width:100%;
