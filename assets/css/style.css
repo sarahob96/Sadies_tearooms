@@ -294,7 +294,6 @@ footer{
     top: 1%;
     right: 1%;
     transform: translate (-30%,-30%);
-    padding: 1em;
     visibility: hidden;
 }
 .modal-link:target{
