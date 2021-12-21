@@ -177,7 +177,12 @@ footer{
 .social-links > li{
     display:inline;
 }
+.social-links i{
+    font-size: 30px;
+    padding: 30px;
+    color:#F4F4E8;
 
+}
 #video{
     text-align:center;
     height:600px;
