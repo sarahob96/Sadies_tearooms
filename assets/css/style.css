@@ -170,14 +170,13 @@ footer{
   
     
 }
-i{
-    color= white;
-}
 
 .social-links{
     text-align: center;
 }
-
+.social-links > li{
+    display:inline;
+}
 
 #video{
     text-align:center;
