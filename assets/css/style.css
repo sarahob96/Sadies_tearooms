@@ -306,21 +306,25 @@ iframe{
     background-color:#FFFEF6;
 
 }
-.online-menu > p{
-    font-family: Gilda Display, serif;
-    padding: 5px;
-    
-}
-
-.online-menu > h2,h3,h4{
-    font-family: Gilda Display, serif;
-    padding: 10px;
-    color: palevioletred;
-}
 
 .menu-heading{
     letter-spacing: 2px;
+    font-family: Gilda Display,serif;
+    padding:10px;
     color:#9BA17B;
+    font-size: 35px;
+}
+
+
+.menu-sub, em> p{
+    font-family: Gilda Display, serif;
+    padding: 3px;
+    
+}
+.menu-sub{
+    font-family: Gilda Display, serif;
+    padding: 10px;
+    color: palevioletred;
 }
 #order-header > h2{
     text-align: center;
