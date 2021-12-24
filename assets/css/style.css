@@ -396,3 +396,14 @@ fieldset{
     box-sizing: border-box;
     resize: none;
 }
+
+.contact-submit-message{
+    text-align: center;
+}
+.contact-submit-message > h2{
+    font-family: Gilda Display, serif;
+    letter-spacing: 2px;
+    color: #808000;
+
+
+}
