@@ -229,6 +229,7 @@ iframe{
    letter-spacing: 4px;
    font-family: Gilda Display, serif;
    margin-bottom: 30px;
+   color:palevioletred;
    
  
    
@@ -236,6 +237,10 @@ iframe{
 .about-sadies{
          padding-bottom: 800px;
     }
+
+.hyperlink{
+    color:palevioletred;
+}
 
 .tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
@@ -257,7 +262,7 @@ iframe{
     margin-bottom: 100px;
 }
 
-.garden-image{
+.tea-image{
     background: no repeat center;
     background-size: cover;
     height: 400px;
