@@ -207,16 +207,14 @@ iframe{
 }
 
 .about{
-    float:left;
-    margin-top: 40px;
-    margin-left: 30px;
+    text-align: center;
     padding: 20px;
-    width: 50%;
-    
-    
-    
-
+    width: 80%;
+    margin: 0 auto;
 }
+
+
+
 .about > p{
     padding: 10px;
     font-family: Gilda Display, serif ;
@@ -234,9 +232,7 @@ iframe{
  
    
 }
-.about-sadies{
-         padding-bottom: 800px;
-    }
+
 
 .hyperlink{
     color:palevioletred;
@@ -244,29 +240,38 @@ iframe{
 
 .tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
-    height: 250px;
+    height: 300px;
     width: 300px;
     background-size: cover;
-    float: right;
-    margin: 40px 200px 20px 20px;
+    float: left;
+    
    
 }
 
 .tearooms2{
     background: url('../images/afternoontea_birthday.jpeg') no-repeat center;
-    height: 270px;
+    height: 300px;
     width: 300px;
     background-size: cover;
     float: right;
-    margin-right: 40px;
-    margin-bottom: 100px;
+  
+    
 }
 
+.tea-garden{
+    background: url('../images/afternoontea_garden.jpeg') no-repeat center;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    background-size:cover;
+    
+}
 .tea-image{
     background: no repeat center;
     background-size: cover;
     height: 400px;
     width: 50%;
+   
 }
 
 .form-fields{
