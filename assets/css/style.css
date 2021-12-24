@@ -415,3 +415,20 @@ fieldset{
     color:#808000;
     padding: 10px;
 }
+
+.thanks-for-ordering{
+    text-align: center;
+    
+}
+.thanks-for-ordering > h2{
+    font-family: Gilda Display, serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding: 20px;
+    color:#808000;
+}
+.thanks-for-ordering > p{
+    font-size: 20px;
+    color:#808000;
+    padding:10px;
+}
