@@ -401,9 +401,13 @@ fieldset{
 }
 .contact-form{
     padding: 10px;
+    font-family: Gilda Display, serif;
+
 
 }
-
+.contact-button{
+    font-family: Gilda Display,serif;
+}
 #contact-legend{
     font-size: 20px;
     
