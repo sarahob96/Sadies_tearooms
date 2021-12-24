@@ -298,13 +298,29 @@ iframe{
     
 }
 .online-menu{
-    border: double ;
+    border: double;
     width: 60%;
-  
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:#FFFEF6;
 
 }
-.online-menu > h2,h3,p{
+.online-menu > p{
     font-family: Gilda Display, serif;
+    padding: 5px;
+    
+}
+
+.online-menu > h2,h3,h4{
+    font-family: Gilda Display, serif;
+    padding: 10px;
+    color: palevioletred;
+}
+
+.menu-heading{
+    letter-spacing: 2px;
+    color:#9BA17B;
 }
 #order-header > h2{
     text-align: center;
