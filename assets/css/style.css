@@ -295,7 +295,6 @@ iframe{
     font-size:20px;
     padding:10px;
     color:#6F754D;
- 
     
 }
 #special-requests{
@@ -395,6 +394,9 @@ fieldset{
 }
 #contact{
     font-size: 20px;
+    font-family: Gilda Display, serif;
+    color:#6F754D;
+    letter-spacing: 2px;
 }
 .contact-form{
     padding: 10px;
