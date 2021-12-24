@@ -276,6 +276,8 @@ iframe{
 
 .form-fields{
     padding: 1em;
+    font-family: Gilda Display, serif;
+
 }
 .order-online{
     width: 50%;
@@ -286,6 +288,15 @@ iframe{
     border-radius: 6px;
     padding:10px;
     text-align:center;
+}
+
+.legend-title{
+    font-family: Gilda Display;
+    font-size:20px;
+    padding:10px;
+    color:#6F754D;
+ 
+    
 }
 #special-requests{
     width: 100%;
