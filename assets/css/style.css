@@ -277,12 +277,15 @@ iframe{
 .form-fields{
     padding: 1em;
 }
-#order-online{
+.order-online{
     width: 50%;
+    margin-top: 2%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: #FFFEF6;
+    background-color:#DCDCC6;
     border-radius: 6px;
+    padding:10px;
+    text-align:center;
 }
 #special-requests{
     width: 100%;
@@ -290,6 +293,12 @@ iframe{
     box-sizing: border-box;
     resize: none;
 
+}
+.menu-link{
+    color:palevioletred;
+    background-color:#F4F4E8;
+    font-size:20px;
+   
 }
 
 
@@ -331,6 +340,7 @@ iframe{
     color: #6F754D;
     font-family: Gilda Display, serif;
     letter-spacing: 2px;
+    padding: 10px;
 }
 
 #order-button{
