@@ -208,7 +208,7 @@ iframe{
 
 .about{
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     width: 80%;
     margin: 0 auto;
 }
@@ -330,6 +330,7 @@ iframe{
     right: 1%;
     transform: translate (-30%,-30%);
     visibility: hidden;
+    display:none;
 }
 .modal-link:target{
     visibility: visible;
