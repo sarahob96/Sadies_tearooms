@@ -257,6 +257,13 @@ iframe{
     margin-bottom: 100px;
 }
 
+.garden-image{
+    background: no repeat center;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+}
+
 .form-fields{
     padding: 1em;
 }
