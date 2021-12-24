@@ -297,12 +297,15 @@ iframe{
     text-align: center;
     
 }
+.online-menu{
+    border: double ;
+    width: 60%;
+  
 
-#order-button{
-    padding: 10px;
-    margin: 2px;
 }
-
+.online-menu > h2,h3,p{
+    font-family: Gilda Display, serif;
+}
 #order-header > h2{
     text-align: center;
     color: #6F754D;
@@ -310,18 +313,10 @@ iframe{
     letter-spacing: 2px;
 }
 
-
-.menu-heading{
-    color:#6F754D;
-     
-}
-.menu-content > p{
-    padding: 4px;
-}
-.menu-content > h3,h4 {
+#order-button{
     padding: 10px;
+    margin: 2px;
 }
-
 
 .float-left{
     width:100%;
