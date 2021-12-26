@@ -385,13 +385,20 @@ iframe{
     font-family: Gilda Display, serif;
     padding: 15px;
     letter-spacing: 2px;
+    color:#6F754D;
+   
 
 }
 
 .contact-us{
     font-family: Gilda Display, serif;
     padding: 10px;
+    color: palevioletred
+   
 
+}
+.span{
+    color:#6F754D;
 }
 
 #contact-message{
