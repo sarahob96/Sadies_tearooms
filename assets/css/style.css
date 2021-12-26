@@ -267,13 +267,18 @@ iframe{
     
 }
 .tea-image{
-    background: no repeat center;
+    background: no-repeat center;
     background-size: cover;
     height: 400px;
     width: 50%;
    
 }
-
+.tea-image2{
+    background: no-repeat center;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+}
 .form-fields{
     padding: 1em;
     font-family: Gilda Display, serif;
