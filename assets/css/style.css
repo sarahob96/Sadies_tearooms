@@ -60,6 +60,7 @@ a{
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
     
 }
 
@@ -143,6 +144,32 @@ font-family: Gilda Display, serif;
 
 }
 
+input[type=radio]{
+    justify-content: center;
+}
+
+.radio-button label{
+    cursor: pointer;
+
+}
+.radio-button:hover{
+    background-color: #DCDCC6;
+}
+
+#box1:checked ~ #box-1{
+    margin-left:0;
+}
+#box2:checked ~ #box-2{
+    margin-left: -100%;
+
+}
+#box3:checked ~ #box-3{
+    margin-left:-200%;
+}
+
+#box4:checked ~ #box-4{
+    margin-left:-300%;
+}
 .box > h2{
     padding: 50px;
     color: #6F754D;
