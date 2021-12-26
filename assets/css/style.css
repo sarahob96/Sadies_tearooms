@@ -18,7 +18,7 @@ h1{
     letter-spacing: 7px;
     font-size: 250%;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
    
 }
 
@@ -30,6 +30,8 @@ h1{
     padding: 30px;
     margin-top: 10px;
     background-color: #DCDCC6;
+   
+   
     
 }
 
@@ -37,12 +39,13 @@ h1{
     list-style: none;
     display: inline;
     font-family: Gilda Display, serif;
+    
   
 }
 
 a{
     text-decoration: none;
-    color: #9BA17B;   
+    color:#6F754D;  
 }
 
 #navbar a:hover{
