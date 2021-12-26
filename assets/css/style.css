@@ -281,6 +281,7 @@ iframe{
     background-size: cover;
     height: 400px;
     width: 50%;
+    padding-top: 10px;
    
 }
 .tea-image2{
@@ -288,6 +289,7 @@ iframe{
     background-size: cover;
     height: 400px;
     width: 50%;
+    padding-top: 10px;
 }
 .form-fields{
     padding: 1em;
