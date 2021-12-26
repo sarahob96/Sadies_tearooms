@@ -515,12 +515,6 @@ fieldset{
 @media screen and (max-width:1250px){
 
 
-
-    #image-text{
-        height:20px;
-        left:0;
-    }
-
     .tearooms1{
 
         height: 200px;
@@ -614,4 +608,14 @@ fieldset{
       
 
     }
+    .video{
+        height:800px;
+        width:100%;
+        margin-bottom: 30px;
+    }
+    iframe{
+        width:100%;
+       
+    }
+   
 }
