@@ -332,8 +332,12 @@ iframe{
     text-align: center;
     
 }
+
+.menu-container{
+    padding: 20px;
+}
 .online-menu{
-    border: double;
+    border: double #6F754D;
     width: 60%;
     text-align: center;
     margin: 0 auto;
