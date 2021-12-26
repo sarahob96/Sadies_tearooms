@@ -511,3 +511,51 @@ fieldset{
     color:#808000;
     padding:10px;
 }
+
+@media screen and (max-width:1250px){
+    #image-text{
+        height:250px;
+    }
+
+    .tearooms1{
+
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .tearooms2{
+        height:200px;
+        width:200px;
+    }
+
+    .tea-garden{
+        height:200px;
+        width:200px;
+
+    }
+}
+    @media screen and (max-width: 850px){
+
+    .about{
+        padding:0px;
+      
+    }
+        
+    .image-container > div{
+        clear:both;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        
+      
+
+    }
+    .image-container{
+        width: 100%;
+        vertical-align:auto;
+        height:100%;
+       
+    }
+   
+}
