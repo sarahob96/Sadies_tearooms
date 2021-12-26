@@ -22,13 +22,14 @@ h1{
    
 }
 
-
 #navbar{
     text-align: center;
     font-size: 130%;
     justify-content: space-between;
     display: flex;
-    padding: 40px;
+    padding: 30px;
+    margin-top: 10px;
+    background-color: #DCDCC6;
     
 }
 
