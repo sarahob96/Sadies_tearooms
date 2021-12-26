@@ -555,7 +555,21 @@ fieldset{
         width: 100%;
         vertical-align:auto;
         height:100%;
-       
+        
     }
    
+}
+@media screen and (max-width: 950px){
+    #circle-container{
+        display:table-cell;
+        width:100%;
+        
+        
+        
+    }
+    .circle{
+        clear:both;
+        
+    }
+    
 }
