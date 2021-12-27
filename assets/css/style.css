@@ -19,14 +19,16 @@ body{
 
 h1{
     font-family: Gilda Display, serif;
-    font-weight: 400px;
+    font-weight: bold;
     color: #9BA17B;
     letter-spacing: 7px;
     font-size: 250%;
     text-align: center;
     padding: 30px;
-   
+    
+
 }
+
 .navigation label{
     margin: 0 20px 0 0;
     font-size:30px;
@@ -44,6 +46,7 @@ h1{
     display: flex;
     padding: 30px;
     background-color: #DCDCC6;
+
 }
    
 
@@ -227,7 +230,7 @@ footer{
 .video{
     text-align:center;
     height: 100vh;
-    margin-top: 0 auto;
+    margin-top: 0;
    
   
 }
@@ -611,19 +614,19 @@ fieldset{
 
         .tearooms1{
             max-width: 100%;
-            max-height: auto;
+            
             
     
         }
     
         .tearooms2{
             max-width: 100%;
-            max-height:auto;
+          
         }
     
         .tea-garden{
             max-width:100%;
-            max-height:auto;
+           
     
         }
     .about{
@@ -662,7 +665,6 @@ fieldset{
     }
     .image-container{
         width: 100%;
-        vertical-align:auto;
         height:100%;
         
     }
