@@ -16,7 +16,7 @@ body{
     box-sizing: border-box;
     
 }
-
+/* main Sadies heading */
 h1{
     font-family: "Gilda Display", serif;
     font-weight: bold;
@@ -28,6 +28,8 @@ h1{
     
 
 }
+
+/* navigation menu */
 
 .navigation label{
     margin: 0 20px 0 0;
@@ -49,13 +51,11 @@ h1{
 
 }
    
-
 .navbar li{
     list-style: none;
     display: inline;
     font-family: "Gilda Display", serif;
     
-  
 }
 
 a{
@@ -69,17 +69,12 @@ a{
     
 }
 
-
-
-
-
 .current{ 
     border-bottom: 1px solid;
 }
 
 
-
-
+/* hero image */
 
 #main-image{
    background: url('../images/tearooms_2.jpeg') no-repeat center;
@@ -104,12 +99,21 @@ a{
     padding-right: 20px;
     padding-top: 20px;
     opacity: 0.9;
-
-
-
 }
+
+/* key points */
+
 .points{
     height: 400px;
+}
+
+.points h2{
+    text-align: center;
+    color:palevioletred;
+    font-family: "Gilda Display";
+    padding: 20px 0 10px 0;
+    letter-spacing: 1.5px;
+    
 }
 
 #circle-container{
@@ -120,16 +124,6 @@ a{
     display: flex;
     justify-content: space-between;
   
-
-
-}
-.points h2{
-    text-align: center;
-    color:palevioletred;
-    font-family: "Gilda Display";
-    padding: 20px 0 10px 0;
-    letter-spacing: 1.5px;
-    
 }
 
 .circle{
@@ -141,12 +135,9 @@ a{
     float:left;
     text-align: center;
     margin:50px;
-    
-    
-    
+      
 }
     
-  
 .circle-text{
 
     margin: 10%;
@@ -156,6 +147,9 @@ a{
     color: #6F754D;
     
 }
+
+/* testimonial section*/
+
 .reviews{
     width:100%;
     padding-bottom: 20px;
@@ -172,21 +166,18 @@ a{
     box-sizing: border-box;
    
 }
-.box i{
-    text-align: center;
-    padding-bottom: 20px;
-}
-
 .reviews h2{
     font-family: "Gilda Display", serif;
     color:palevioletred;
     text-align: center;
     padding: 20px 0 20px 0;
     letter-spacing: 2px;
-    
-    
-
 }
+.box i{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .box > p{
     font-family: "Gilda Display", serif;
     color:#6F754D;
@@ -197,36 +188,8 @@ hr{
     border: 1px solid #6F754D ;
 }
 
+/* video section*/
 
-footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: fit-content;
-    background-color: #6F754D;
-    padding:0;
-    margin:0;
-  
-    
-}
-
-.social-links{
-    text-align: center;
-}
-.social-links > li{
-    display:inline;
-}
-.social-links i{
-    font-size: 30px;
-    padding: 30px;
-    color:#F4F4E8;
-
-}
-
-.copyright{
-    color:#F4F4E8;
-    text-align: center;
-}
 .video{
     text-align:center;
     height: 100vh;
@@ -251,13 +214,43 @@ iframe{
 
 }
 
+/* footer and social links*/
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #6F754D;
+    padding:0;
+    margin:0;
+}
+
+.social-links{
+    text-align: center;
+}
+.social-links > li{
+    display:inline;
+}
+.social-links i{
+    font-size: 30px;
+    padding: 30px;
+    color:#F4F4E8;
+
+}
+
+.copyright{
+    color:#F4F4E8;
+    text-align: center;
+}
+
+/* about section*/
 .about{
     text-align: center;
     padding: 40px;
     width: 80%;
     margin: 0 auto;
 }
-
 
 
 .about > p{
@@ -273,24 +266,21 @@ iframe{
    font-family: "Gilda Display", serif;
    margin-bottom: 30px;
    color:palevioletred;
-   
- 
-   
+     
 }
-
 
 .hyperlink{
     color:palevioletred;
 }
 
+/* about page - images */
 .tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
     height: 300px;
     width: 300px;
     background-size: cover;
     float: left;
-    
-   
+     
 }
 
 .tearooms2{
@@ -311,6 +301,8 @@ iframe{
     background-size:cover;
     
 }
+
+/* form submission images*/
 .tea-image{
     background: no-repeat center;
     background-size: cover;
@@ -326,6 +318,9 @@ iframe{
     width: 50%;
     padding-top: 10px;
 }
+
+/* order form*/
+
 .form-fields{
     padding: 1em;
     font-family: "Gilda Display", serif;
@@ -363,7 +358,19 @@ iframe{
     font-size:20px;
    
 }
+#order-header > h2{
+    text-align: center;
+    color: #6F754D;
+    font-family: "Gilda Display", serif;
+    letter-spacing: 2px;
+    padding: 10px;
+}
 
+#order-button{
+    padding: 10px;
+    margin: 2px;
+}
+/* menu*/
 
 .menu{
     text-align: center;
@@ -402,18 +409,6 @@ iframe{
     padding: 10px;
     color: palevioletred;
 }
-#order-header > h2{
-    text-align: center;
-    color: #6F754D;
-    font-family: "Gilda Display", serif;
-    letter-spacing: 2px;
-    padding: 10px;
-}
-
-#order-button{
-    padding: 10px;
-    margin: 2px;
-}
 
 .float-left{
     width:100%;
@@ -421,6 +416,7 @@ iframe{
     height: 220px;
   
 }
+/* Contact us page */
 
 #contact-heading{
     font-family: "Gilda Display", serif;
@@ -441,6 +437,8 @@ iframe{
 .span{
     color:#6F754D;
 }
+
+/*contact us form */
 
 #contact-message{
     height: 350px;
@@ -485,6 +483,8 @@ fieldset{
     resize: none;
 }
 
+ /* thanks for contacting us page */
+
 .contact-submit-message{
     text-align: center;
 }
@@ -504,6 +504,8 @@ fieldset{
     padding: 10px;
 }
 
+/* thanks for ordering page */ 
+
 .thanks-for-ordering{
     text-align: center;
     
@@ -520,6 +522,9 @@ fieldset{
     color:#808000;
     padding:10px;
 }
+
+
+/* media queries max-width 1250px */
 
 @media screen and (max-width:1250px){
 
@@ -543,6 +548,9 @@ fieldset{
 
     }
 }
+
+/* media queries max width 950px */
+
 @media screen and (max-width: 950px){
 
 
@@ -579,6 +587,9 @@ fieldset{
         margin: 0 auto;
     }
 }
+
+/* media queries max width 850px*/
+
     @media screen and (max-width: 850px){
 
         .navigation label{
@@ -586,7 +597,6 @@ fieldset{
             cursor: pointer;
             color: #6F754D;
             
-    
         }
         .navbar{
             width:fit-content;
@@ -614,25 +624,20 @@ fieldset{
 
         .tearooms1{
             max-width: 100%;
-            
-            
-    
         }
-    
+
         .tearooms2{
-            max-width: 100%;
-          
+            max-width: 100%;  
         }
     
         .tea-garden{
-            max-width:100%;
-           
-    
+            max-width:100%;    
         }
+
     .about{
-        padding:0px;
-      
+        padding:0px; 
     }
+
      #contact-message{
             height: fit-content;
             width: fit-content;
@@ -643,16 +648,19 @@ fieldset{
             width:fit-content;
             margin:0 auto;
         }
+
         .tea-image2{
             max-width: 100%;
             height: auto;
         }
+
         .online-menu{
             width: fit-content;
             height: fit-content;
         }
 }
 
+/* media queries max width 600px */
 
 @media screen and (max-width: 600px){
     .image-container > div{
@@ -674,6 +682,7 @@ fieldset{
 }
     
 
+/* media queries max width 470px*/
 
 @media screen and (max-width: 470px){
     #main-image{
@@ -684,9 +693,6 @@ fieldset{
     #image-text{
         height: 12vh;
         font-size: 40%;
-        
-      
-
     }
     .video{
         height:800px;
@@ -694,8 +700,7 @@ fieldset{
         margin-bottom: 30px;
     }
     iframe{
-        width:100%;
-       
+        width:100%;   
     }
    
 }
