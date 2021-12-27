@@ -110,7 +110,9 @@ a{
     text-align: center;
     color:palevioletred;
     font-family: Gilda Display;
-    padding-top: 20px;
+    padding: 20px 0 10px 0;
+    letter-spacing: 1.5px;
+    
 }
 
 .circle{
@@ -139,6 +141,7 @@ a{
 }
 .reviews{
     width:100%;
+  
    
 }
 .reviews div{
@@ -148,8 +151,9 @@ a{
     text-align: center;
     display: table-cell;
     border: 2px solid #F4F4E8;
-    box-sizing: border-box;}
+    box-sizing: border-box;
    
+}
 .box i{
     text-align: center;
     padding-bottom: 20px;
@@ -159,7 +163,9 @@ a{
     font-family: Gilda Display, serif;
     color:palevioletred;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 0;
+    letter-spacing: 2px;
+    
     
 
 }
@@ -217,7 +223,7 @@ iframe{
     color: palevioletred;
     letter-spacing: 2px;
     margin-top: 30px;
-    padding: 20px 0 10px 0;
+    padding: 30px 0 10px 0;
     background-color: #DCDCC6;
 
 }
