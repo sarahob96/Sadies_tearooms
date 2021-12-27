@@ -95,6 +95,7 @@ a{
 .points{
     height: 400px;
 }
+
 #circle-container{
     
     width:100%;
@@ -141,6 +142,7 @@ a{
 }
 .reviews{
     width:100%;
+    padding-bottom: 20px;
   
    
 }
@@ -554,21 +556,26 @@ fieldset{
     
 }
 @media screen and (max-width: 950px){
-    #circle-container{
-        display:table-cell;
-        
-        
-        
-        
-    }
-    .circle{
-        clear:both;
-        
 
-        
+    #circle-container{
+        display:table-cell;          
     }
     
+    .circle{
+        clear:both;
+            }
+    .reviews div{
+        width:100%;
+        clear: both;
+        padding:0;
+        height:fit-content;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
+    
+
 @media screen and (max-width: 600px){
     .image-container > div{
         clear:both;
