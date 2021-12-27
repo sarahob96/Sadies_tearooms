@@ -27,19 +27,25 @@ h1{
     padding: 30px;
    
 }
+.navigation label{
+    margin: 0 20px 0 0;
+    font-size:30px;
+    line-height: 50px;
+    display: none;
+}
 
+#hamburger-menu{
+    display:none;
+}
 .navbar{
     text-align: center;
     font-size: 130%;
     justify-content: space-between;
     display: flex;
     padding: 30px;
-    margin: 0px;
     background-color: #DCDCC6;
-   
-   
-    
 }
+   
 
 .navbar li{
     list-style: none;
@@ -59,6 +65,10 @@ a{
     border-bottom: 1px solid;
     
 }
+
+
+
+
 
 .current{ 
     border-bottom: 1px solid;
@@ -531,6 +541,35 @@ fieldset{
 }
     @media screen and (max-width: 850px){
 
+        .navigation label{
+            display: block;
+            cursor: pointer;
+            color: #6F754D;
+            
+    
+        }
+        .navbar{
+            width:fit-content;
+            height:fit-content;
+            display:none;
+            position:absolute;
+            z-index: 10;
+          
+        }
+        .navbar a{
+            display:block;
+            margin:0;
+            padding:5px;
+            text-align: center;
+            font-size:small;
+        }
+        #hamburger-menu:checked + .navbar{
+            display:block;
+        }
+        .navbar a:hover{
+            background-color: #DCDCC6;
+            border-bottom: 1px solid;
+        }
     
 
         .tearooms1{
