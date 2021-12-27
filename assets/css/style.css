@@ -574,20 +574,20 @@ fieldset{
     
 
         .tearooms1{
-            padding:0;
-            height: 160px;
-            width: 160px;
+            max-width: 100%;
+            max-height: auto;
+            
     
         }
     
         .tearooms2{
-            height:160px;
-            width:160px;
+            max-width: 100%;
+            max-height:auto;
         }
     
         .tea-garden{
-            height:160px;
-            width:160px;
+            max-width:100%;
+            max-height:auto;
     
         }
     .about{
@@ -638,6 +638,7 @@ fieldset{
     }
 }
     
+
 
 @media screen and (max-width: 600px){
     .image-container > div{
