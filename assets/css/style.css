@@ -540,6 +540,42 @@ fieldset{
 
     }
 }
+@media screen and (max-width: 950px){
+
+
+    
+    .points{
+        height:fit-content;
+    }
+    #circle-container{
+        display:inline-block;
+        height: 100%;
+               
+    }
+
+    .circle{
+        clear:both;
+        border-radius: 0;
+        line-height: 1;
+        margin:0;
+        width:100%;
+        
+            }
+    .circle-text{
+        padding:10px;
+        font-size: 150%;
+        margin:10%;
+    }
+    .reviews div{
+        width:100%;
+        clear: both;
+        padding:0;
+        height:fit-content;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
     @media screen and (max-width: 850px){
 
         .navigation label{
@@ -613,31 +649,6 @@ fieldset{
             height: fit-content;
         }
 }
-@media screen and (max-width: 950px){
-
-
-    
-    .points{
-        height:fit-content;
-    }
-    #circle-container{
-        display:table-cell;          
-    }
-
-    .circle{
-        clear:both;
-            }
-    .reviews div{
-        width:100%;
-        clear: both;
-        padding:0;
-        height:fit-content;
-        display: inline-block;
-        text-align: center;
-        margin: 0 auto;
-    }
-}
-    
 
 
 @media screen and (max-width: 600px){
@@ -655,7 +666,9 @@ fieldset{
         height:100%;
         
     }
-   
+    .circle-text{
+        margin:15%;
+    }
 }
     
 
@@ -669,7 +682,7 @@ fieldset{
     #image-text{
         height: 12vh;
         font-size: 40%;
-        top: 400px;
+        
       
 
     }
