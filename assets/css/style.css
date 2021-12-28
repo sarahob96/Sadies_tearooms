@@ -16,7 +16,8 @@ body{
     box-sizing: border-box;
     
 }
-/* main Sadies heading */
+/* main sadies heading */
+
 h1{
     font-family: "Gilda Display", serif;
     font-weight: bold;
@@ -25,7 +26,7 @@ h1{
     font-size: 250%;
     text-align: center;
     padding: 30px;
-    
+
 
 }
 
@@ -135,6 +136,7 @@ a{
     float:left;
     text-align: center;
     margin:50px;
+    
       
 }
     
@@ -190,7 +192,7 @@ hr{
 
 /* video section*/
 
-.video{
+#video{
     text-align:center;
     height: 100vh;
     margin-top: 0;
@@ -202,7 +204,7 @@ iframe{
     height: 85%;
 
 }
-.video > h2{
+#video > h2{
     font-family: "Gilda Display", serif;
     color: palevioletred;
     letter-spacing: 2px;
@@ -268,7 +270,25 @@ footer{
    color:palevioletred;
      
 }
+.about-imagetext{
+    background-color: #F4F4E8;
+    color: palevioletred;
+    padding-top: 10px;
+    font-family: Dosis, serif;
+    font-size: 110%;
+}
+.about-hidden-paragraph{
+    background-color: #F4F4E8;
+    color: palevioletred;
+    padding-top: 10px;
+    font-family: Dosis, serif;
+    font-size: 140%;
+    display:none;
+}
+.hidden-three{
+    padding-bottom: 40px;
 
+}
 .hyperlink{
     color:palevioletred;
 }
@@ -280,6 +300,7 @@ footer{
     width: 300px;
     background-size: cover;
     float: left;
+    box-shadow: 7px 12px rgba(190, 81, 117, 0.6);
      
 }
 
@@ -289,6 +310,7 @@ footer{
     width: 300px;
     background-size: cover;
     float: right;
+    box-shadow: 7px 12px rgba(190, 81, 117, 0.6);
   
     
 }
@@ -299,7 +321,7 @@ footer{
     height: 300px;
     width: 300px;
     background-size:cover;
-    
+    box-shadow: 7px 12px rgba(190, 81, 117, 0.6);
 }
 
 /* form submission images*/
@@ -324,6 +346,7 @@ footer{
 .form-fields{
     padding: 1em;
     font-family: "Gilda Display", serif;
+    text-align: left;
 
 }
 .order-online{
@@ -526,35 +549,27 @@ fieldset{
 
 /* media queries max-width 1250px */
 
-@media screen and (max-width:1250px){
+@media screen and (min-width:951px) and (max-width:1250px){
 
-
-
-    .tearooms1{
-
-        height: 200px;
-        width: 200px;
-
-    }
-
-    .tearooms2{
-        height:200px;
-        width:200px;
-    }
-
-    .tea-garden{
-        height:200px;
-        width:200px;
-
-    }
+.image-container > div{
+    
+    height:225px;
+    width:220px;
+    
+}
+   
 }
 
 /* media queries max width 950px */
 
-@media screen and (max-width: 950px){
+@media screen and (min-width: 851px) and (max-width: 950px){
 
+.image-container > div{
 
-    
+    height: 220px;
+    width: 220px;
+}
+
     .points{
         height:fit-content;
     }
@@ -590,7 +605,7 @@ fieldset{
 
 /* media queries max width 850px*/
 
-    @media screen and (max-width: 850px){
+    @media screen and (min-width: 280px) and (max-width: 850px){
 
         .navigation label{
             display: block;
@@ -621,19 +636,25 @@ fieldset{
             border-bottom: 1px solid;
         }
     
+        .image-container> div{
 
-        .tearooms1{
-            max-width: 100%;
+        clear:both;
+        margin: 40px auto;
+        padding: 12px;
+        width:100%;
+        object-fit: cover ;
         }
 
-        .tearooms2{
-            max-width: 100%;  
+        .about-imagetext{
+            display:none;
+            
         }
-    
-        .tea-garden{
-            max-width:100%;    
+        
+        .about-hidden-paragraph{
+            display: block;
         }
 
+        }
     .about{
         padding:0px; 
     }
@@ -663,19 +684,7 @@ fieldset{
 /* media queries max width 600px */
 
 @media screen and (max-width: 600px){
-    .image-container > div{
-        clear:both;
-        margin: 0 auto;
-        padding: 10px;
-        width: 100%;
-        object-fit: cover;
-        
-    }
-    .image-container{
-        width: 100%;
-        height:100%;
-        
-    }
+  
     .circle-text{
         margin:15%;
     }
@@ -694,7 +703,7 @@ fieldset{
         height: 12vh;
         font-size: 40%;
     }
-    .video{
+    #video{
         height:800px;
         width:100%;
         margin-bottom: 30px;
