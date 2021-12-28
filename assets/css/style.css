@@ -267,6 +267,7 @@ footer{
    letter-spacing: 4px;
    font-family: "Gilda Display", serif;
    margin-bottom: 30px;
+   padding-top: 30px;
    color:palevioletred;
      
 }
@@ -285,15 +286,16 @@ footer{
     font-size: 140%;
     display:none;
 }
-.hidden-three{
-    padding-bottom: 40px;
 
-}
 .hyperlink{
     color:palevioletred;
 }
 
 /* about page - images */
+
+.image-container{
+    padding-bottom: 30px;
+}
 .tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
     height: 300px;
