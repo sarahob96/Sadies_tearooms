@@ -128,7 +128,7 @@ a{
 }
 
 .circle{
-    background-color: #DCDCC6;
+    
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -136,6 +136,7 @@ a{
     float:left;
     text-align: center;
     margin:50px;
+    background-color:rgba(190, 81, 117, 0.3);
     
       
 }
@@ -147,6 +148,7 @@ a{
     padding: 30px;
     font-size: 130%;
     color: #6F754D;
+    text-shadow: #DCDCC6 1px 1px;
     
 }
 
@@ -155,15 +157,16 @@ a{
 .reviews{
     width:100%;
     padding-bottom: 20px;
+    height:400px;
   
    
 }
-.reviews div{
+.box{
     width:25%;
-    height:300px;
+    height: 320px;
     background-color:#DCDCC6;
     text-align: center;
-    display: table-cell;
+    float:left;
     border: 2px solid #F4F4E8;
     box-sizing: border-box;
    
@@ -277,7 +280,9 @@ footer{
     padding-top: 10px;
     font-family: Dosis, serif;
     font-size: 110%;
+    border:none;
 }
+
 .about-hidden-paragraph{
     background-color: #F4F4E8;
     color: palevioletred;
@@ -554,12 +559,11 @@ fieldset{
 @media screen and (min-width:951px) and (max-width:1250px){
 
 .image-container > div{
-    
+  
     height:225px;
     width:220px;
-    
 }
-   
+
 }
 
 /* media queries max width 950px */
@@ -568,46 +572,33 @@ fieldset{
 
 .image-container > div{
 
-    height: 220px;
-    width: 220px;
-}
+    height: 190px;
+    width: 190px;
+    }
 
     .points{
         height:fit-content;
     }
     #circle-container{
-        display:inline-block;
-        height: 100%;
-               
+        height: 100%;         
+     
     }
 
-    .circle{
-        clear:both;
-        border-radius: 0;
-        line-height: 1;
-        margin:0;
-        width:100%;
-        
-            }
     .circle-text{
         padding:10px;
-        font-size: 150%;
-        margin:10%;
+        font-size: 120%;
+        margin-top:25%;
     }
-    .reviews div{
-        width:100%;
-        clear: both;
-        padding:0;
-        height:fit-content;
-        display: inline-block;
-        text-align: center;
-        margin: 0 auto;
+
+    .box{
+        height: 400px;
     }
+
 }
 
 /* media queries max width 850px*/
 
-    @media screen and (min-width: 280px) and (max-width: 850px){
+ @media screen and (min-width: 280px) and (max-width: 850px){
 
         .navigation label{
             display: block;
@@ -656,7 +647,7 @@ fieldset{
             display: block;
         }
 
-        }
+        
     .about{
         padding:0px; 
     }
@@ -677,20 +668,44 @@ fieldset{
             height: auto;
         }
 
+        .tea-image{
+            max-width:100%;
+            height: auto;
+        }
         .online-menu{
             width: fit-content;
             height: fit-content;
         }
-}
 
-/* media queries max width 600px */
+        .circle{
+                width:100%;
+                height:80px;
+                clear:both;
+                border-radius:0;
+                margin:0;
 
-@media screen and (max-width: 600px){
-  
-    .circle-text{
-        margin:15%;
-    }
-}
+            }
+
+        #circle-container{
+             flex-direction: column;
+        }
+        .circle-text{
+             margin:0;
+
+        }
+
+        .reviews > div{
+            width:100%;
+            clear: both;
+            padding:0;
+            height:fit-content;
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+ }
+
     
 
 /* media queries max width 470px*/
@@ -713,5 +728,4 @@ fieldset{
     iframe{
         width:100%;   
     }
-   
 }
