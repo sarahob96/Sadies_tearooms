@@ -98,8 +98,9 @@ a{
     background-color: #FFFEF6;
     font-family: "Gilda Display", serif;
     color: #6F754D;
-    width: 200px;
+    width: 350px;
     height: 250px;
+    font-size: larger;
     bottom:30px;
     left: 30px;
     position: absolute; 
@@ -119,8 +120,9 @@ a{
     text-align: center;
     color:palevioletred;
     font-family: "Gilda Display";
-    padding: 20px 0 10px 0;
+    padding: 40px 0 10px 0;
     letter-spacing: 1.5px;
+    font-size: 27px;
     
 }
 
@@ -217,14 +219,22 @@ iframe{
     height: 80%;
 
 }
-#video > h2{
+#video > h2 {
     font-family: "Gilda Display", serif;
     color: palevioletred;
     letter-spacing: 2px;
     margin-top: 70px;
     padding-top: 40px;
     background-color: #DCDCC6;
-    padding-bottom: 30px;
+    font-size: 150%
+   
+}
+
+#video > p{
+    font-family: "Gilda Display" serif;
+    color: palevioletred;
+    background-color: #DCDCC6;
+    padding-bottom: 20px;
 
 
 }
@@ -349,14 +359,17 @@ footer{
     height: 400px;
     width: 50%;
     padding-top: 10px;
+    padding-bottom: 40px;
    
 }
 .tea-image2{
     background: no-repeat center;
     background-size: cover;
-    height: 400px;
-    width: 50%;
-    padding-top: 10px;
+    height: 450px;
+    width: 45%;
+    padding: 40px 0 40px 0;
+    
+    
 }
 
 /* order form*/
@@ -604,7 +617,12 @@ fieldset{
     .box{
         height: 400px;
     }
-
+    .reviews{
+        height:430px;
+    }
+    #image-text{
+        height:200px;
+    }
 }
 
 /* media queries max width 850px*/
@@ -634,6 +652,8 @@ fieldset{
         }
         #hamburger-menu:checked + .navbar{
             display:block;
+            width:200px;
+            height:170px;
         }
         .navbar a:hover{
             background-color: #DCDCC6;
@@ -690,6 +710,7 @@ fieldset{
 
         .circle{
                 width:100%;
+                font-size: smaller;
                 height:80px;
                 clear:both;
                 border-radius:0;
@@ -724,7 +745,10 @@ fieldset{
     iframe{
             height: 350px;
         }
-
+        #video{
+            height:100%;
+            
+        }
         #video > h2{
             letter-spacing: 0;
             font-size: medium;
@@ -740,26 +764,35 @@ fieldset{
             -webkit-transform: scale(1);
             -ms-transorm: scale (1);
             transform: scale (1);
+        } 
 
+            #image-text{
+                height: 200px;
+                width:300px;
+                bottom:30px;
+                font-size:100%;
+                
+            }
+               
 
  }
+ @media screen and (min-width: 280px) and (max-width: 412px){
 
-    
-
-
-     
-
-/* media queries max width 470px*/
-
-@media screen and (max-width: 470px){
     #main-image{
         width: 100%;
         height: 40vh;
     }
-  
-    #image-text{
-        height: 12vh;
-        font-size: 40%;
-    }
-   
+
+     #image-text{
+         height: 130px;
+         width:130px;
+         font-size:50%;
+     }
+    
+.reviews{ 
+    height:1150px;
 }
+
+     
+
+
