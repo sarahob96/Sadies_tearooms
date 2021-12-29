@@ -153,7 +153,8 @@ a{
     margin: 9%;
     font-family: "Gilda-Display", serif;
     padding: 30px;
-    font-size: 130%;
+    font-size: 120%;
+    font-weight: bold;
     color: #808000;
     text-shadow: #DCDCC6 1px 1px;
     letter-spacing: 1px;
