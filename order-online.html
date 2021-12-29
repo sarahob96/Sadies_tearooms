@@ -14,12 +14,14 @@
 
 <body>
 
-   
+   <!--header section-->
 <header> 
     <a href="index.html">
     <h1> Sadie's Tearooms </h1>
     </a>
     
+    <!--navigation menu-->
+            <!--hamburger nav section for smaller devices-->
         <nav class="navigation">
             <label for="hamburger-menu">&#9776;</label>
             <input type="checkbox" id="hamburger-menu">
@@ -41,16 +43,18 @@
     </nav>
 </header>
 
-
+<main>
+    <!--order page containing form and a hyperlink to the current menu that opens in a new tab-->
+    <section>
     <div id="order-header">
         <h2> Order below for your Afternoon Tea collection </h2>
     </div>
 
-
 <div class="menu">
-<a href="menu.html" class="menu-link" target="_blank"> <em>Click here for our latest menu </em></a>
-
-<form class="order-online" action="thanks-for-ordering.html"> 
+    <!--hyperlink-->
+            <a href="menu.html" class="menu-link" target="_blank"> <em>Click here for our latest menu </em></a>
+        <!--order form-->
+        <form class="order-online" action="thanks-for-ordering.html"> 
     <fieldset>
         <legend class="legend-title"> Enter your details below</legend>
         <div class="form-fields">
@@ -79,10 +83,10 @@
                 <option value="6">6</option>
             </select>
         </div>
-
+                    <!-- min and max date set to give a realistic feel to the order calender-->
         <div class="form-fields">
             <label for="date-collection" class="form-label">Date for collection</label>
-            <input id="date-collection" type="date" min="2021-12-30" max="2022-01-10" name="date-for-collection" required>
+            <input id="date-collection" type="date" min="2022-01-08" max="2022-02-31" name="date-for-collection" required>
         </div>
 
         <div class="form-fields">
@@ -94,9 +98,9 @@
 
 
 </form>
-</div>
+</section>
 </body>
-
+    <!--footer section-->
 <footer>
     <ul class="social-links">
         <li> 
