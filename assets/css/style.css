@@ -287,9 +287,9 @@ footer{
 .about-imagetext{
     background-color: #F4F4E8;
     color: palevioletred;
-    padding-top: 10px;
+    font-weight: bold;
     font-family: Dosis, serif;
-    font-size: 110%;
+    font-size: 120%;
     border:none;
 }
 
@@ -310,6 +310,7 @@ footer{
 
 .image-container{
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 .tearooms1{
     background: url('../images/tearooms_1.jpeg') no-repeat center;
@@ -734,11 +735,18 @@ fieldset{
         .points h2{
             padding: 30px 0 30px 0;
         }
+       
+        .hover:hover{
+            -webkit-transform: scale(1);
+            -ms-transorm: scale (1);
+            transform: scale (1);
+
+
  }
 
     
 
- @media screen and (min-width: 280px) and (max-width: 660px){
+
      
 
 /* media queries max width 470px*/
