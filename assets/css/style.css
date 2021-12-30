@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Gilda+Display&display=swap');
 
 
-body{
-    
+body {
+
     font-family: Dosis, serif;
     color: black;
     background-color: #F4F4E8;
-    margin:0;
-    padding:0;
-    
+    margin: 0;
+    padding: 0;
+
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 /* main sadies heading */
 
-h1{
+h1 {
     font-family: "Gilda Display", serif;
     font-weight: bold;
     color: #9BA17B;
@@ -29,7 +31,8 @@ h1{
 
 
 }
-.hover:hover{
+
+.hover:hover {
     -webkit-transform: scale(1.4);
     -ms-transorm: scale (1.4);
     transform: scale (1.3);
@@ -37,17 +40,18 @@ h1{
 
 /* navigation menu */
 
-.navigation label{
+.navigation label {
     margin: 0 20px 0 0;
-    font-size:30px;
+    font-size: 30px;
     line-height: 50px;
     display: none;
 }
 
-#hamburger-menu{
-    display:none;
+#hamburger-menu {
+    display: none;
 }
-.navbar{
+
+.navbar {
     text-align: center;
     font-size: 130%;
     justify-content: space-between;
@@ -56,54 +60,54 @@ h1{
     background-color: #DCDCC6;
 
 }
-   
-.navbar li{
+
+.navbar li {
     list-style: none;
     display: inline;
     font-family: "Gilda Display", serif;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
-    color:#6F754D;  
+    color: #6F754D;
 }
 
-.navbar a:hover{
-    background-color:#F4F4E8;
+.navbar a:hover {
+    background-color: #F4F4E8;
     border-bottom: 1px solid;
-    
+
 }
 
-.current{ 
+.current {
     border-bottom: 1px solid;
 }
 
 
 /* hero image */
 
-#main-image{
-   background: url('../images/tearooms_2.jpeg') no-repeat center;
-   height: 700px;
-   max-width: 100%;
-   background-size: cover;
-   position:relative;
-   
+#main-image {
+    background: url('../images/tearooms_2.jpeg') no-repeat center;
+    height: 700px;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+
 
 
 }
 
-#image-text{
-    
+#image-text {
+
     background-color: #FFFEF6;
     font-family: "Gilda Display", serif;
     color: #6F754D;
     width: 350px;
     height: 250px;
     font-size: larger;
-    bottom:30px;
+    bottom: 30px;
     left: 30px;
-    position: absolute; 
+    position: absolute;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -112,45 +116,45 @@ a{
 
 /* key points */
 
-.points{
+.points {
     height: 400px;
 }
 
-.points h2{
+.points h2 {
     text-align: center;
-    color:palevioletred;
+    color: palevioletred;
     font-family: "Gilda Display";
     padding: 40px 0 10px 0;
     letter-spacing: 1.5px;
     font-size: 27px;
-    
+
 }
 
-#circle-container{
-    
-    width:100%;
-    height:150px;
+#circle-container {
+
+    width: 100%;
+    height: 150px;
     text-align: center;
     display: flex;
     justify-content: space-between;
-  
+
 }
 
-.circle{
-    
+.circle {
+
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 1px solid #e8dad1;
-    float:left;
+    float: left;
     text-align: center;
-    margin:50px;
+    margin: 50px;
     background-color: rgba(190, 81, 117, 0.4);
-    
-      
+
+
 }
-    
-.circle-text{
+
+.circle-text {
 
     margin: 9%;
     font-family: "Gilda-Display", serif;
@@ -160,66 +164,71 @@ a{
     color: #808000;
     text-shadow: #DCDCC6 1px 1px;
     letter-spacing: 1px;
-    
+
 }
 
 /* testimonial section*/
 
-.reviews{
-    width:100%;
+.reviews {
+    width: 100%;
     padding-bottom: 20px;
-    height:400px;
-  
-   
+    height: 400px;
+
+
 }
-.box{
-    width:25%;
+
+.box {
+    width: 25%;
     height: 320px;
-    background-color:#DCDCC6;
+    background-color: #DCDCC6;
     text-align: center;
-    float:left;
+    float: left;
     border: 2px solid #F4F4E8;
     box-sizing: border-box;
-   
+
 }
-.reviews h2{
+
+.reviews h2 {
     font-family: "Gilda Display", serif;
-    color:palevioletred;
+    color: palevioletred;
     text-align: center;
     padding: 20px 0 20px 0;
     letter-spacing: 2px;
 }
-.box i{
+
+.box i {
     text-align: center;
     padding-bottom: 20px;
     color: #6F754D;
 }
 
-.box > p{
+.box>p {
     font-family: "Gilda Display", serif;
-    color:#6F754D;
+    color: #6F754D;
     padding: 30px;
 }
 
-hr{
-    border: 1px solid #6F754D ;
+hr {
+    border: 1px solid #6F754D;
 }
 
 /* video section*/
 
-#video{
-    text-align:center;
+#video {
+    text-align: center;
     height: 100vh;
     margin-top: 0;
-   
-  
+
+
 }
-iframe{
-    width:100%;
+
+iframe {
+    width: 100%;
     height: 80%;
 
 }
-#video > h2 {
+
+#video>h2 {
     font-family: "Gilda Display", serif;
     color: palevioletred;
     letter-spacing: 2px;
@@ -227,11 +236,10 @@ iframe{
     padding-top: 40px;
     background-color: #DCDCC6;
     font-size: 150%
-   
 }
 
-#video > p{
-    font-family: "Gilda Display" serif;
+#video>p {
+    font-family: "Gilda Display"serif;
     color: palevioletred;
     background-color: #DCDCC6;
     padding-bottom: 20px;
@@ -241,36 +249,38 @@ iframe{
 
 /* footer and social links*/
 
-footer{
+footer {
     position: relative;
     bottom: 0;
     width: 100%;
     height: fit-content;
     background-color: #6F754D;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
-.social-links{
+.social-links {
     text-align: center;
 }
-.social-links > li{
-    display:inline;
+
+.social-links>li {
+    display: inline;
 }
-.social-links i{
+
+.social-links i {
     font-size: 30px;
     padding: 30px;
-    color:#F4F4E8;
+    color: #F4F4E8;
 
 }
 
-.copyright{
-    color:#F4F4E8;
+.copyright {
+    color: #F4F4E8;
     text-align: center;
 }
 
 /* about section*/
-.about{
+.about {
     text-align: center;
     padding: 40px;
     width: 80%;
@@ -278,141 +288,148 @@ footer{
 }
 
 
-.about > p{
+.about>p {
     padding: 10px;
-    font-family: "Gilda Display", serif ;
+    font-family: "Gilda Display", serif;
     color: #6F754D;
     text-align: justify;
 
 }
 
-.about-header{
-   letter-spacing: 4px;
-   font-family: "Gilda Display", serif;
-   margin-bottom: 30px;
-   padding-top: 30px;
-   color:palevioletred;
-     
+.about-header {
+    letter-spacing: 4px;
+    font-family: "Gilda Display", serif;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    color: palevioletred;
+
 }
-.about-imagetext{
+
+.about-imagetext {
     background-color: #F4F4E8;
     color: palevioletred;
     font-weight: bold;
     font-family: Dosis, serif;
     font-size: 120%;
-    border:none;
+    border: none;
 }
 
-.about-hidden-paragraph{
+.about-hidden-paragraph {
     background-color: #F4F4E8;
     color: palevioletred;
     padding-top: 10px;
     font-family: Dosis, serif;
     font-size: 140%;
-    display:none;
+    display: none;
 }
 
-.hyperlink{
-    color:palevioletred;
+.hyperlink {
+    color: palevioletred;
 }
 
 /* about page - images */
 
-.image-container{
+.image-container {
     padding-bottom: 30px;
     padding-top: 20px;
 }
-.tearooms1{
+
+.tearooms1 {
     background: url('../images/tearooms_1.jpeg') no-repeat center;
     height: 300px;
     width: 300px;
     background-size: cover;
     float: left;
     box-shadow: 7px 12px rgba(190, 81, 117, 0.6);
-     
+
 }
 
-.tearooms2{
+.tearooms2 {
     background: url('../images/afternoontea_birthday.jpeg') no-repeat center;
     height: 300px;
     width: 300px;
     background-size: cover;
     float: right;
     box-shadow: 7px 12px rgba(190, 81, 117, 0.6);
-  
-    
+
+
 }
 
-.tea-garden{
+.tea-garden {
     background: url('../images/afternoontea_garden.jpeg') no-repeat center;
     margin: 0 auto;
     height: 300px;
     width: 300px;
-    background-size:cover;
+    background-size: cover;
     box-shadow: 7px 12px rgba(190, 81, 117, 0.6);
 }
 
 /* form submission images*/
-.tea-image{
+.tea-image {
     background: no-repeat center;
     background-size: cover;
     height: 400px;
     width: 50%;
     padding-top: 10px;
     padding-bottom: 40px;
-   
+
 }
-.tea-image2{
+
+.tea-image2 {
     background: no-repeat center;
     background-size: cover;
     height: 450px;
     width: 45%;
     padding: 40px 0 40px 0;
-    
-    
+
+
 }
 
 /* order form*/
 
-.form-fields{
+.form-fields {
     padding: 1em;
     font-family: "Gilda Display", serif;
     text-align: left;
 
 }
-.order-online{
+
+.order-online {
     width: 50%;
     margin-top: 2%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color:#DCDCC6;
+    background-color: #DCDCC6;
     border-radius: 6px;
-    padding:10px;
-    text-align:center;
+    padding: 10px;
+    text-align: center;
 }
 
-.legend-title{
+.legend-title {
     font-family: "Gilda Display";
-    font-size:20px;
-    padding:10px;
-    color:#6F754D;
+    font-size: 20px;
+    padding: 10px;
+    color: #6F754D;
     letter-spacing: 2px;
-    
+
 }
-#special-requests{
+
+#special-requests {
     width: 100%;
     height: 130px;
     box-sizing: border-box;
     resize: none;
 
 }
-.menu-link{
-    color:palevioletred;
-    background-color:#F4F4E8;
-    font-size:20px;
-   
+
+.menu-link {
+    color: palevioletred;
+    background-color: #F4F4E8;
+    font-size: 20px;
+
 }
-#order-header > h2{
+
+#order-header>h2 {
     text-align: center;
     color: #6F754D;
     font-family: "Gilda Display", serif;
@@ -420,129 +437,139 @@ footer{
     padding: 10px;
 }
 
-#order-button{
+#order-button {
     padding: 10px;
     margin: 2px;
 }
+
 /* menu*/
 
-.menu{
+.menu {
     text-align: center;
-    
+
 }
 
-.menu-container{
+.menu-container {
     padding: 20px;
 }
-.online-menu{
+
+.online-menu {
     border: double #6F754D;
     width: 60%;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
-    background-color:#FFFEF6;
+    background-color: #FFFEF6;
 
 }
 
-.menu-heading{
+.menu-heading {
     letter-spacing: 2px;
-    font-family: "Gilda Display",serif;
-    padding:10px;
-    color:#9BA17B;
+    font-family: "Gilda Display", serif;
+    padding: 10px;
+    color: #9BA17B;
     font-size: 35px;
 }
 
 
-.menu-sub, em> p{
+.menu-sub,
+em>p {
     font-family: "Gilda Display", serif;
     padding: 3px;
-    
+
 }
-.menu-sub{
+
+.menu-sub {
     font-family: "Gilda Display", serif;
     padding: 10px;
     color: palevioletred;
 }
 
-.float-left{
-    width:100%;
-    text-align: center; 
+.float-left {
+    width: 100%;
+    text-align: center;
     height: 220px;
-  
+
 }
+
 /* Contact us page */
 
-#contact-heading{
+#contact-heading {
     font-family: "Gilda Display", serif;
     padding: 15px;
     letter-spacing: 2px;
-    color:#6F754D;
-   
+    color: #6F754D;
+
 
 }
 
-.contact-us{
+.contact-us {
     font-family: "Gilda Display", serif;
     padding: 10px;
     color: palevioletred
-   
-
 }
-.span{
-    color:#6F754D;
+
+.span {
+    color: #6F754D;
 }
 
 /*contact us form */
 
-#contact-message{
+#contact-message {
     height: 350px;
     width: 50%;
     margin: 0 auto;
-    background-color:#DCDCC6;
-    text-align: center; 
+    background-color: #DCDCC6;
+    text-align: center;
     border-radius: 6px;
     margin-bottom: 20px;
     margin-top: 40px;
 
 }
 
-fieldset{
-    border:none;
+fieldset {
+    border: none;
 }
-#contact{
+
+#contact {
     font-size: 20px;
     font-family: "Gilda Display", serif;
-    color:#6F754D;
+    color: #6F754D;
     letter-spacing: 2px;
     padding: 10px;
 }
-.contact-form{
+
+.contact-form {
     padding: 10px;
     font-family: "Gilda Display", serif;
 
 
 }
-.contact-button{
-    font-family: "Gilda Display",serif;
-    
+
+.contact-button {
+    font-family: "Gilda Display", serif;
+
 }
-#contact-legend{
+
+#contact-legend {
     font-size: 20px;
-    
+
 }
-#customer-message{
+
+#customer-message {
     width: 100%;
     height: 100px;
     box-sizing: border-box;
     resize: none;
 }
 
- /* thanks for contacting us page */
+/* thanks for contacting us page */
 
-.contact-submit-message{
+.contact-submit-message {
     text-align: center;
 }
-.contact-submit-message > h2{
+
+.contact-submit-message>h2 {
     font-family: "Gilda Display", serif;
     letter-spacing: 2px;
     color: #808000;
@@ -552,247 +579,259 @@ fieldset{
 
 }
 
-.contact-submit-message > p{
+.contact-submit-message>p {
     font-size: 20px;
-    color:#808000;
+    color: #808000;
     padding: 10px;
 }
 
-/* thanks for ordering page */ 
+/* thanks for ordering page */
 
-.thanks-for-ordering{
+.thanks-for-ordering {
     text-align: center;
-    
+
 }
-.thanks-for-ordering > h2{
+
+.thanks-for-ordering>h2 {
     font-family: "Gilda Display", serif;
     letter-spacing: 2px;
     font-size: 40px;
     padding: 20px;
-    color:#808000;
+    color: #808000;
 }
-.thanks-for-ordering > p{
+
+.thanks-for-ordering>p {
     font-size: 20px;
-    color:#808000;
-    padding:10px;
+    color: #808000;
+    padding: 10px;
 }
 
 
 /* media queries max-width 1250px */
 
-@media screen and (min-width:951px) and (max-width:1250px){
+@media screen and (min-width:951px) and (max-width:1250px) {
 
-.image-container > div{
-  
-    height:225px;
-    width:220px;
-}
+    .image-container>div {
+
+        height: 225px;
+        width: 220px;
+    }
 
 }
 
 /* media queries max width 950px */
 
-@media screen and (min-width: 851px) and (max-width: 950px){
+@media screen and (min-width: 851px) and (max-width: 950px) {
 
-.image-container > div{
+    .image-container>div {
 
-    height: 190px;
-    width: 190px;
+        height: 190px;
+        width: 190px;
     }
 
-    .points{
-        height:fit-content;
-    }
-    #circle-container{
-        height: 100%;         
-     
+    .points {
+        height: fit-content;
     }
 
-    .circle-text{
-        padding:10px;
+    #circle-container {
+        height: 100%;
+
+    }
+
+    .circle-text {
+        padding: 10px;
         font-size: 120%;
-        margin-top:25%;
+        margin-top: 25%;
     }
 
-    .box{
+    .box {
         height: 400px;
     }
-    .reviews{
-        height:430px;
+
+    .reviews {
+        height: 430px;
     }
-    #image-text{
-        height:200px;
+
+    #image-text {
+        height: 200px;
     }
 }
 
 /* media queries max width 850px*/
 
- @media screen and (min-width: 280px) and (max-width: 850px){
+@media screen and (min-width: 280px) and (max-width: 850px) {
 
-        .navigation label{
-            display: block;
-            cursor: pointer;
-            color: #6F754D;
-            
-        }
-        .navbar{
-            width:fit-content;
-            height:fit-content;
-            display:none;
-            position:absolute;
-            z-index: 10;
-          
-        }
-        .navbar a{
-            display:block;
-            margin:0;
-            padding:5px;
-            text-align: center;
-            font-size:small;
-        }
-        #hamburger-menu:checked + .navbar{
-            display:block;
-            width:200px;
-            height:170px;
-        }
-        .navbar a:hover{
-            background-color: #DCDCC6;
-            border-bottom: 1px solid;
-        }
-    
-        .image-container> div{
+    .navigation label {
+        display: block;
+        cursor: pointer;
+        color: #6F754D;
 
-        clear:both;
-        margin: 40px auto;
-        padding: 12px;
-        width:100%;
-        object-fit: cover ;
-        }
-
-        .about-imagetext{
-            display:none;
-            
-        }
-        
-        .about-hidden-paragraph{
-            display: block;
-        }
-
-        
-    .about{
-        padding:0px; 
     }
 
-     #contact-message{
-            height: fit-content;
-            width: fit-content;
-        }
-    
-        .order-online{
-            height: fit-content;
-            width:fit-content;
-            margin:0 auto;
-        }
+    .navbar {
+        width: fit-content;
+        height: fit-content;
+        display: none;
+        position: absolute;
+        z-index: 10;
 
-        .tea-image2{
-            max-width: 100%;
-            height: auto;
-        }
+    }
 
-        .tea-image{
-            max-width:100%;
-            height: auto;
-        }
-        .online-menu{
-            width: fit-content;
-            height: fit-content;
-        }
+    .navbar a {
+        display: block;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        font-size: small;
+    }
 
-        .circle{
-                width:100%;
-                font-size: smaller;
-                height:80px;
-                clear:both;
-                border-radius:0;
-                margin:2px auto;
+    #hamburger-menu:checked+.navbar {
+        display: block;
+        width: 200px;
+        height: 170px;
+    }
 
-            }
+    .navbar a:hover {
+        background-color: #DCDCC6;
+        border-bottom: 1px solid;
+    }
 
-        #circle-container{
-             flex-direction: column;
-        }
-        .circle-text{
-             margin:0;
+    .image-container>div {
 
-        }
+        clear: both;
+        margin: 40px auto;
+        padding: 12px;
+        width: 100%;
+        object-fit: cover;
+    }
 
-        .reviews{
-            height: 900px;
-        }
-        .reviews > div{
-            width:100%;
-            clear: both;
-            padding:0;
-            height:fit-content;
-            display: inline-block;
-            text-align: center;
-            margin: 0 auto;
-        }
-        .reviews{
-            height:1000px;
-        }
-    
-    iframe{
-            height: 350px;
-        }
-        #video{
-            height:100%;
-            
-        }
-        #video > h2{
-            letter-spacing: 0;
-            font-size: medium;
-            padding:20px 0 20px 0;
-            margin-top: 0;
-        }
- 
-        .points h2{
-            padding: 30px 0 30px 0;
-        }
-       
-        .hover:hover{
-            -webkit-transform: scale(1);
-            -ms-transorm: scale (1);
-            transform: scale (1);
-        } 
+    .about-imagetext {
+        display: none;
 
-            #image-text{
-                height: 200px;
-                width:300px;
-                bottom:30px;
-                font-size:100%;
-                
-            }
-               
+    }
 
- }
- @media screen and (min-width: 280px) and (max-width: 412px){
+    .about-hidden-paragraph {
+        display: block;
+    }
 
-    #main-image{
+
+    .about {
+        padding: 0px;
+    }
+
+    #contact-message {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .order-online {
+        height: fit-content;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .tea-image2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .tea-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .online-menu {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .circle {
+        width: 100%;
+        font-size: smaller;
+        height: 80px;
+        clear: both;
+        border-radius: 0;
+        margin: 2px auto;
+
+    }
+
+    #circle-container {
+        flex-direction: column;
+    }
+
+    .circle-text {
+        margin: 0;
+
+    }
+
+    .reviews {
+        height: 900px;
+    }
+
+    .reviews>div {
+        width: 100%;
+        clear: both;
+        padding: 0;
+        height: fit-content;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .reviews {
+        height: 1000px;
+    }
+
+    iframe {
+        height: 350px;
+    }
+
+    #video {
+        height: 100%;
+
+    }
+
+    #video>h2 {
+        letter-spacing: 0;
+        font-size: medium;
+        padding: 20px 0 20px 0;
+        margin-top: 0;
+    }
+
+    .points h2 {
+        padding: 30px 0 30px 0;
+    }
+
+    .hover:hover {
+        -webkit-transform: scale(1);
+        -ms-transorm: scale (1);
+        transform: scale (1);
+    }
+
+    #image-text {
+        height: 200px;
+        width: 300px;
+        bottom: 30px;
+        font-size: 100%;
+
+    }
+
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 412px) {
+
+    #main-image {
         width: 100%;
         height: 40vh;
     }
 
-     #image-text{
-         height: 130px;
-         width:130px;
-         font-size:50%;
-     }
-    
-.reviews{ 
-    height:1150px;
-}
+    #image-text {
+        height: 130px;
+        width: 130px;
+        font-size: 50%;
+    }
 
-     
-
-
+    .reviews {
+        height: 1150px;
+    }

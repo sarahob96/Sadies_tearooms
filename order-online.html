@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
-    <meta charset= UTF-8>
+    <meta charset=UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="sadies tearooms offers luxury Afternoon Tea in greystones, co.wicklow, ireland">
     <meta name="keywords" content=" sadies tearooms, luxury, afternoon tea, greystones, wicklow, ireland">
@@ -14,111 +14,118 @@
 
 <body>
 
-   <!--header section-->
-<header> 
-    <a href="index.html">
-    <h1> Sadie's Tearooms </h1>
-    </a>
-    
-    <!--navigation menu-->
-            <!--hamburger nav section for smaller devices-->
+    <!--header section-->
+    <header>
+        <a href="index.html">
+            <h1> Sadie's Tearooms </h1>
+        </a>
+
+        <!--navigation menu-->
+        <!--hamburger nav section for smaller devices-->
         <nav class="navigation">
             <label for="hamburger-menu">&#9776;</label>
             <input type="checkbox" id="hamburger-menu">
-            
-        <ul class="navbar">
-            <li>
-                <a href="index.html"> Home</a>
-            </li>
-            <li>
-                <a href="about.html"> About</a>
-            </li>
-            <li>
-                <a href="order-online.html" class="current"> Order Online </a>
-            </li>
-            <li>
-                <a href="contact.html"> Contact Us</a>
-            </li>
-        </ul>
-    </nav>
-</header>
 
-<main>
-    <!--order page containing form and a hyperlink to the current menu that opens in a new tab-->
-    <section>
-    <div id="order-header">
-        <h2> Order below for your Afternoon Tea collection </h2>
-    </div>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="about.html"> About</a>
+                </li>
+                <li>
+                    <a href="order-online.html" class="current"> Order Online </a>
+                </li>
+                <li>
+                    <a href="contact.html"> Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="menu">
-    <!--hyperlink-->
-            <a href="menu.html" class="menu-link" target="_blank"> <em>Click here for our latest menu </em></a>
-        <!--order form-->
-        <form class="order-online" action="thanks-for-ordering.html"> 
-    <fieldset>
-        <legend class="legend-title"> Enter your details below</legend>
-        <div class="form-fields">
-            <label for="name-space" class="form-label"> Name:</label>
-            <input id="name-space" type="text" name="full-name" placeholder= "Your Name" required>
-        </div>
+    <main>
+        <!--order page containing form and a hyperlink to the current menu that opens in a new tab-->
+        <section>
+            <div id="order-header">
+                <h2> Order below for your Afternoon Tea collection </h2>
+            </div>
 
-        <div class="form-fields">
-            <label for="phone-space" class="form-label"> Phone Number:</label>
-            <input id="phone-space" type="number" name="phone-number" placeholder="Your Number" required>
-        </div>
-        <div class="form-fields">
-            <label for="email-space" class="form-label"> Email: </label>
-            <input id="email-space" type="email" name="email" placeholder= "Your Email" required>
-        </div>
-        
-        <div class="form-fields">
-            <label for="how-many" class="form-label"> How many people?</label>
-            <select id='how-many' name="how-many-people" required>
-                <option value=""></option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>
-        </div>
-                    <!-- min and max date set to give a realistic feel to the order calender-->
-        <div class="form-fields">
-            <label for="date-collection" class="form-label">Date for collection</label>
-            <input id="date-collection" type="date" min="2022-01-08" max="2022-02-31" name="date-for-collection" required>
-        </div>
+            <div class="menu">
+                <!--hyperlink-->
+                <a href="menu.html" class="menu-link" target="_blank"> <em>Click here for our latest menu </em></a>
+                <!--order form-->
+                <form class="order-online" action="thanks-for-ordering.html">
+                    <fieldset>
+                        <legend class="legend-title"> Enter your details below</legend>
+                        <div class="form-fields">
+                            <label for="name-space" class="form-label"> Name:</label>
+                            <input id="name-space" type="text" name="full-name" placeholder="Your Name" required>
+                        </div>
 
-        <div class="form-fields">
-            <label for="special-requests" class="form-label"> Special Requests? </label>
-            <textarea id="special-requests" name="requests" placeholder="Gluten-free/Vegan options?"></textarea>
-        </div>
-    </fieldset>
-    <input type="submit" class="contact-button"> 
+                        <div class="form-fields">
+                            <label for="phone-space" class="form-label"> Phone Number:</label>
+                            <input id="phone-space" type="number" name="phone-number" placeholder="Your Number"
+                                required>
+                        </div>
+                        <div class="form-fields">
+                            <label for="email-space" class="form-label"> Email: </label>
+                            <input id="email-space" type="email" name="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="form-fields">
+                            <label for="how-many" class="form-label"> How many people?</label>
+                            <select id='how-many' name="how-many-people" required>
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                        <!-- min and max date set to give a realistic feel to the order calender-->
+                        <div class="form-fields">
+                            <label for="date-collection" class="form-label">Date for collection</label>
+                            <input id="date-collection" type="date" min="2022-01-08" max="2022-02-31"
+                                name="date-for-collection" required>
+                        </div>
+
+                        <div class="form-fields">
+                            <label for="special-requests" class="form-label"> Special Requests? </label>
+                            <textarea id="special-requests" name="requests"
+                                placeholder="Gluten-free/Vegan options?"></textarea>
+                        </div>
+                    </fieldset>
+                    <input type="submit" class="contact-button">
 
 
-</form>
-</section>
+                </form>
+        </section>
 </body>
-    <!--footer section-->
+<!--footer section-->
 <footer>
     <ul class="social-links">
-        <li> 
-            <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener" aria-label="Visit us on Instagram"><i class="fab fa-instagram"></i></a>
-        </li>
-      
         <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on Facebook"><i class="fab fa-facebook-square"></i> </a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener"
+                aria-label="Visit us on Instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on Facebook"><i
+                    class="fab fa-facebook-square"></i> </a>
         </li>
         <li>
-            <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit us on Twitter"> <i class="fab fa-twitter-square"></i></a>
+            <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit us on Twitter"> <i
+                    class="fab fa-twitter-square"></i></a>
         </li>
     </ul>
-            <p class="copyright"> &copy; 2021 Sadies Tearooms</p>
+    <p class="copyright"> &copy; 2021 Sadies Tearooms</p>
 </footer>
- 
 
 
- </body>
- <script src="https://kit.fontawesome.com/cc5874c006.js" crossorigin="anonymous"></script>
- </html>
+
+</body>
+<script src="https://kit.fontawesome.com/cc5874c006.js" crossorigin="anonymous"></script>
+
+</html>
