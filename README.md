@@ -213,8 +213,6 @@ The footer contains 3 social network hyperlinks that can be accessed through cli
 ### Validation 
   As my code was HTML and CSS. I ran the code for each page through the W3C markup validation service which ensured my code was valid. 
 
-* HTML Validator
-  ![htmlvalidation](Docs/W3validator-index.png)
 
 * CSS Validator
   ![cssvalidation](Docs/CSSvalidator.png)
