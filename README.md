@@ -83,7 +83,11 @@ Afternoon tea is a foodie's dream. Sadie's offers a selection of cakes and savou
 
 - The site consists of four pages that can be accessed from the navigation menu and 3 others not accessible from the nav section. Two of these are seen when the order form and contact form is submitted and third page shows the afternoon tea menu which can be accessed through a hyperlink found on the 'order online' page. 
 * Main page 
+
+
  - The landing page boasts a large hero image with a text box describing briefly whats on offer. Further down the home page we have a simple section display three reasons to love "Sadies". A testimonial section follows so the user can see what other users thought. Finally a 'recipe of the month' section contains a video with a recipe for a festive tea to fit in with the season we are in.
+
+
 * About
   - The 'about' page simply contains a block of text to inform the user, followed by three eye catching images with descriptive text.
  * Order online
@@ -99,22 +103,36 @@ Afternoon tea is a foodie's dream. Sadie's offers a selection of cakes and savou
   - Navigation menu -
   * The Nav bar allows the user to get around the site with a click. A hover feature appears when hovering over nav menu sections. The page the user is currently on will be underlined on the navbar, allowing the user to always know where they are on the site.
   * On smaller devices, the nav menu has been programmed to toggle from the standard menu display to a burger menu on devices 850px and lower.
+  ![hamburger](Docs/burger-menu.png)
   - Landing page - consists of the big hero image with a small text box. I didn't want to overwhelm the user with a lot of information at first look so kept it minimal with a brief description.
+  
   * The landing page also contains a key points feature that enlarge once hovered over. Similarly the points are kept brief but effective. 
+  ![points](Docs/3points-large.png)
   * The testimonial section on the landing page effectively shows the user what past users have experienced. This subconciously builds trust between the user and the company, as they know others have had positive experiences. 
+  ![testimonials](Docs/testimonials.png)
+  
   * A video element on the landing page gives the user a nice incentive for visiting the site. This section would allow users to want to visit more frequently to recieve a recipe from one of the current menu items.
- 
+  ![video](Docs/video.png)
+  
+ -about page
+  * This section gives the user more in depth detail about the tearooms and whats on offer. Three images are used with simple text to allow the user to further visualise the experience thats on offer.
+  ![aboutimage](Docs/about-imagery.png)
+  
  - Order online page
+
+![orderonline](Docs/orderform.png)
  * The order form allows the user to order their afternoon tea for collection. I referenced the current COVID situation on the about page as a reason to have introduced this feature. The order form allows the user to order for up to 6 people and choose a date of their choice with only future dates as options to give the site a realistic feel. A textbox featured on the form gives the user the choice to list any special dietary requirements as gluten free and vegan options are necessary in todays society. 
  * The page features a hyperlink that once clicked, opens a page in a new window that displays the current menu. 
  * Once the order form is submitted, the user is met with a new page displaying an order confirmation. 
 
 - Contact us page
+![contactpage](Docs/contactpage.png)
 * The contact form is kept simple but offers a convienent way for the user to instantly get in touch. A phone number and email address is provided for users preference.  The contact form once submitted opens a new page with a thank you message, letting the user know they successfully got in touch.
 
 - Footer
-* The footer contains 3 social network hyperlinks that can be accessed through clicking the corresponding network icon. 
 
+The footer contains 3 social network hyperlinks that can be accessed through clicking the corresponding network icon. 
+![footer](Docs/footer.png)
 
 ### Features to be implemented
 - A Pay Online feature - currently only using HTML and CSS, it was not achievable for me to insert this feature so instead we had an order for collection- pay instore method. A pay online element would make the process more efficient for the user so they have it ordered and payed for quickly and do not have to worry about it when collecting.
@@ -149,6 +167,9 @@ A number of manual tests were done on the site to ensure everything worked and l
 
 ### Validation 
 As my code was HTML and CSS. I ran the code for each page through the W3C markup validation service which ensured my code was valid. 
+
+HTML Validator
+
 
 ### Bugs/errors 
 #### Resolved
