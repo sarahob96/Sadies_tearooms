@@ -5,28 +5,26 @@
 Link to the live website [here.](https://sarahob96.github.io/sadies_tearooms/)
  ## Table Of Contents
    - Objective
-   - Concept 
+   - Concept
      + wireframes
-   - UX design (user experience)
-     + site owner goals
+   - UX design
      + User stories
    - Design
-     + Colour Scheme 
+     + Colour Scheme
      + Typography
      + Imagery
-     + Site layout
-  - Features  
+     +Site layout
+  - Features 
   - Technologies Used
   - Testing
     + Manual Testing
     + Validation
     + Bugs/errors
- - Deployment 
- - Credits 
+ - Deployment
+ - Credits
       
 
-## Objective 
-
+## Objective
 This website will advertise a fictional tearooms that offers a luxurious Afternoon Tea.    The site should give the user a taste of what to expect when they indulge in the   afternoon tea experience that's on offer. The website will include a main page with an  impactful hero image, an about page to further inform the user about the company, an order form feature to allow the user to order their afternoon tea to collect and finally a contact page where the user is given a number of contact options including a contact form.
 
 ## Concept
@@ -158,22 +156,64 @@ The footer contains 3 social network hyperlinks that can be accessed through cli
 
 ## Testing 
 
-### Manual testing
+
+### User Story testing 
+
+ - "As a first time user, I want to know what service/product is being offered" 
+    * The text box and hero image give the user a instant idea of what is being offered. Further on, the about      section informs the user further.
+    
+ - "As a first time user, I want to navigate swiftly through the site on a number of devices."
+    * The navigation menu on larger devices and the hamburger menu on smaller devices ensures the user gets around the site easily. Clicking on the 'Sadies' title from any page brings the user back to the home page.
+    
+ - "As a first time user, I want to see a menu so I know whats included."
+    * A menu is given to the user through a hyperlink so they can view the menu in another tab while filling out     the order form.
+    
+ - "As a first time user, I want to know the cost of the product."
+   * The cost of the product is given instantly to the user on the home page as an attractive feature of the         afternoon tea and the tearooms.
+   
+ - As a first time user, I want to see testimonials to know what previous customers thought. 
+   * The testimonial section on the home page provides the user with knowledge of what other users thought.
+   
+ ### Returning Visitor Goals
+  
+  - "As a Returning User, I want to easily make an order."
+   * The order form makes it easy for users to submit an order.
+   
+  - "As a Returning User, I want to find an address to know where the tearooms are located."
+   * The about page gives the user a general location and further on, the 'contact us' page shows the exact address.
+   
+  - "As a Returning User, I want to see if there is a newly updated menu."
+  * On further visits to the site, updated menus would be available to the user. The 'recipe' of the month feature entices the user to return frequently.
+  
+  - "As a Returning User, I want to find contact information."
+   * Contact information can be found on the contact page 
+   
+  - "As a Returning User, I want to access their social media"
+   * Social media icons on the footer allow for easy social media access.
+   
+  ### Manual testing
   A number of manual tests were done on the site to ensure everything worked and looked     how it was supposed to.
   - The site was tested on a number of browsers - Chrome, Safari and Microsoft Edge. 
   - I viewed the site on various screen sizes through Chrome Dev tools and also through my   own phone device.
-  - I ensured all anchor elements worked effectively and that the external social links     opened in new tabs and on the right site. 
+  - I ensured all anchor elements worked effectively and that the external social links opened in new tabs and on the right site. 
   - Both forms work as they are designed to. The user cannot submit the form when required   fields are left blank. 
+
 
 
 ### Validation 
   As my code was HTML and CSS. I ran the code for each page through the W3C markup validation service which ensured my code was valid. 
 
-HTML Validator
+* HTML Validator
   ![htmlvalidation](Docs/W3validator-index .png)
 
-CSS Validator
+* CSS Validator
   ![cssvalidation](Docs/CSSvalidator.png)
+  
+* Lighthouse - Google Chrome 
+  - I used the lighthouse feature in google chrome dev tools to test for performance, accessibility, best practices and  SEO. All areas scored high.
+  ![lighthouse](Docs/lighthouse-chrome.png)
+
+ - Best practices scored slightly lower due to 'Same Site cookie' from the youtube video element.
 
 ### Bugs/errors 
 #### Resolved
