@@ -84,6 +84,7 @@ Afternoon tea is a foodie's dream. Sadie's offers a selection of cakes and savou
 - The site consists of four pages that can be accessed from the navigation menu and 3 others not accessible from the nav section. Two of these are seen when the order form and contact form is submitted and third page shows the afternoon tea menu which can be accessed through a hyperlink found on the 'order online' page. 
 * Main page 
 
+[!mainpage](Docs/mainpage-large.png)
 
  - The landing page boasts a large hero image with a text box describing briefly whats on offer. Further down the home page we have a simple section display three reasons to love "Sadies". A testimonial section follows so the user can see what other users thought. Finally a 'recipe of the month' section contains a video with a recipe for a festive tea to fit in with the season we are in.
 
@@ -169,7 +170,10 @@ A number of manual tests were done on the site to ensure everything worked and l
 As my code was HTML and CSS. I ran the code for each page through the W3C markup validation service which ensured my code was valid. 
 
 HTML Validator
+[!htmlvalidation](Docs/W3validator-index.png)
 
+CSS Validator
+[!cssvalidation](Docs/CSSvalidator.png)
 
 ### Bugs/errors 
 #### Resolved
